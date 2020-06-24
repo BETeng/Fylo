@@ -1,7 +1,44 @@
-html { 
+html, body { 
+    margin: 0px;
+    padding: 0px;
     height: 100%;
+    background-color:hsl(229, 57%, 11%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: hsl(243, 100%, 93%);
+}
+
+.container{
+    border-radius: 15px;
+    background-color:hsl(228, 56%, 26%);
+}
+
+.roundedTL{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     background-image: url(./images/bg-desktop.svg);
-    background-position: center;
+    height: 50%;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 200px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+   text-align: center;
+}
+
+.roundedTR{
+    border-radius: 15px 50px 15px 15px;
+    width: 30%;
+    height: 100px;
+    justify-content: center;
+}
+
+.attribution{
+    bottom: 10px;
+    right: 40%;
+    position: absolute;
+    display: inline-block;
 }
