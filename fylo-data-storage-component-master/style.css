@@ -363,7 +363,7 @@ and (max-width: 733px) {
         bottom: 10px;
         
         position: absolute;
-        text-align: center;
+        left: 15%;
     }
 
 }
